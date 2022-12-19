@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #e7e7e7;
+    padding: 300px;   
+}
+
+header {
+    display: flex; 
+    margin-bottom: 16px; 
+    justify-content: center;
+}
+
+header h1 {
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+
+form {
+    padding: 24px 0;
+    text-align: center;
+}
+
+form input, button {
+    font-size: 30px;
+    padding: 8px;
+}
+
+button {
+    font-weight: bold;
+}
+
+ul {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+ul, li {
+    padding: 8px;
+}
+
+.riscado {
+    text-decoration: line-through;
+}
